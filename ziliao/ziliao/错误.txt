@@ -1,0 +1,14 @@
+安装错误解决
+
+building 'twisted.test.raiser' extension
+error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
+解决方案
+	http://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted 
+	下载twisted对应版本的whl文件（如我的Twisted-17.5.0-cp36-cp36m-win_amd64.whl），cp后面是python版本，amd64代表64位，运行命令：
+	pip install C:\Users\CR\Downloads\Twisted-17.5.0-cp36-cp36m-win_amd64.whl
+
+安装twisted显示平台不支持
+	安装：pip instatll Twisted-17.9.0-cp36-cp36m-win_amd64.whl
+	错误：Twisted-17.9.0-cp36-cp36m-win_amd64.whl is not a supported wheel on this platfor m.
+	解决方法：修改包名
+	更改为：Twisted-17.9.0-cp36-none-win32.whl

@@ -1,0 +1,29 @@
+{ "store": {
+    "book": [
+      { "category": "文学",
+        "author": "奥斯特.托夫斯基",
+        "title": "钢铁是怎么炼成的",
+        "price": 19.8
+      },
+      { "category": "历史",
+        "author": "司马迁",
+        "title": "史记",
+        "price": 36
+      },
+      { "category": "悬疑",
+        "author": "南派三叔",
+        "title": "盗墓笔记",
+        "price": 39.9
+      },
+      { "category": "武侠",
+        "author": "金庸",
+        "title": "天龙八部",
+        "price": 28
+      }
+    ],
+    "bicycle": {
+      "color": "red",
+      "price": 19.95
+    }
+  }
+}

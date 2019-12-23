@@ -1,0 +1,30 @@
+1、配置抓取https包
+    tools==》options==》https==》capture https connects，decrypt，ignore，选中，然后点击action==选中trust root certicicate
+    重启fiddler
+2、简单用法
+    清除所有：叉号==》remove all
+    开启、暂停抓包：file==》capture traffic
+    左边栏
+        所有的请求
+        <> : html页面内容
+        js、css、图片标记：认识即可
+        小本带箭头：post请求
+        带锁的不用看
+    右边栏
+        点击某个请求，显示这个请求的详细信息以及响应信息
+        选中inspectors
+        右上
+            请求详细信息
+            raw：请求的所有纯文本内容
+            webforms：请求携带的参数，如果是get参数，在query_string下面放着，如果是post参数，下面有一个formdata下面放着
+        右下
+            响应详细信息
+            点击小黄条，解压缩响应的内容
+            raw：响应的所有纯文本内容
+            json：当你发送了请求之后，获取的是json格式，这个时候看这个
+3、指令操作
+    select html
+    select json
+    select image
+    ?baidu   搜索带baidu的请求
+    cls ： 清楚所有请求
